@@ -1,9 +1,9 @@
 import { Karla } from 'next/font/google'
 import './globals.css'
-import { SideBar } from '@/components/sidebar';
-import Header from '@/components/header';
-import PageWrapper from '@/components/pagewrapper';
-import { ThemeProvider } from '@/components/theme-provider';
+import { SideBar } from '@/components 1/sidebar';
+import Header from '@/components 1/header';
+import PageWrapper from '@/components 1/pagewrapper';
+import { ThemeProvider } from '@/components 1/theme-provider';
 import { Metadata } from 'next';
 
 const karla = Karla({

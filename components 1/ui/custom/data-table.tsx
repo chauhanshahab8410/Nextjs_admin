@@ -53,14 +53,14 @@ export function DataTable<TData, TValue>({ data, columns }: DataTableProps<TData
     return (
         <div className="w-full">
             <div className="flex items-center py-4">
-                {/* <Input
+                <Input
                     placeholder="Filter product..."
                     value={(table.getColumn("product")?.getFilterValue() as string) ?? ""}
                     onChange={(event) =>
                         table.getColumn("product")?.setFilterValue(event.target.value)
                     }
                     className="max-w-sm"
-                /> */}
+                />
             </div>
             <div className="rounded-md border">
                 <Table>
