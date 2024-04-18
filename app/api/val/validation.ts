@@ -1,5 +1,5 @@
-import { exit } from "process";
-import CryptoJS from 'crypto-js'
+// import { exit } from "process";
+// import CryptoJS from 'crypto-js'
 
 export const validateFormData = () => {
     const form = document.getElementById('form') as HTMLFormElement;

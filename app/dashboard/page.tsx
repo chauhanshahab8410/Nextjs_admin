@@ -51,7 +51,7 @@ const dashboard = () => {
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium">
+              <CardTitle className="text-sm  font-extrabold ">
                 Total Loads
               </CardTitle>
               <svg
@@ -72,7 +72,7 @@ const dashboard = () => {
 
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium">
+              <CardTitle className="text-sm font-extrabold">
                 Moving Loads
               </CardTitle>
               <svg
@@ -99,7 +99,7 @@ const dashboard = () => {
           </Card>
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium">Sales</CardTitle>
+              <CardTitle className="text-sm font-extrabold">Sales</CardTitle>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -123,7 +123,7 @@ const dashboard = () => {
           </Card>
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium">
+              <CardTitle className="text-sm font-extrabold">
                 Active Now
               </CardTitle>
               <svg
