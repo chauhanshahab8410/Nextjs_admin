@@ -11,7 +11,7 @@ export const SideBar = () => {
     const [mounted, setMounted] = useState(false);
     const { toggleCollapse } = useSideBarToggle();
 
-    const asideStyle = classNames("sidebar overflow-y-auto overflow-x-auto fixed bg-sidebar h-full shadow-sm shadow-slate-500/40 transition duration-300 ease-in-out z-[99999]",
+    const asideStyle = classNames("  sidebar overflow-y-auto overflow-x-auto fixed bg-sidebar h-full shadow-sm shadow-slate-500/40 transition duration-300 ease-in-out z-[99999] ",
         {
             ["w-[20rem]"]: !toggleCollapse,
             ["sm:w-[5.4rem] sm:left-0 left-[-100%]"]: toggleCollapse,
@@ -20,7 +20,7 @@ export const SideBar = () => {
     useEffect(() => setMounted(true), []);
 
     return (
-        <aside className={asideStyle}>
+        <aside className={asideStyle} >
             <div className="sidebar-top relative flex items-center px-3.5 py-5">
                 {mounted && <SideBarLogo />}
                 <h3 className={classNames("pl-2 font-bold text-2xl min-w-max text-sidebar-foreground",
